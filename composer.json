@@ -1,0 +1,20 @@
+{
+    "name": "farras/samatif",
+    "description": "Project Kuliah Web",
+    "type": "project",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "farras"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
